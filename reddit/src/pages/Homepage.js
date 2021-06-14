@@ -1,10 +1,12 @@
 import React from 'react'
 
+import Navbar from '../components/Navbar'
+
 export default function Homepage() {
     return (
         <div>
             <header>
-                Navbar
+                <Navbar></Navbar>
             </header>
             <div>
                 Content
